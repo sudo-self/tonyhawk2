@@ -1,32 +1,49 @@
-<html>
-    <head>
-                    
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Hawk's Pro Skater 2</title>
 
-<link rel="apple-touch-icon" sizes="any" href="apple-touch-icon.png">
-<link rel="icon" sizes="32x32" href="favicon-32.png" >
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico">
+    <link rel="icon" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" sizes="any" href="apple-touch-icon.png">
 
-<link rel="icon" sizes="192x192" href="favicon-192.png">
-        
-        <style>
-            body, html {
-                margin: 0;
-                padding: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <div style="width:100%;height:100%;max-width:100%">
-            <div id="game"></div>
-        <script>
-            EJS_player = "#game";
-            EJS_core = "psx";
-            EJS_color = "#000";
-            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-            EJS_gameUrl = "https://archive.org/download/images-20_202402/Tony%20Hawk%27s%20Pro%20Skater%202.7z/Tony%20Hawk%27s%20Pro%20Skater%202.bin";
-            EJS_bios = './scph5501.bin';
-        </script>
-        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-    </body>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            overflow: hidden;
+        }
+
+        #game {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="game"></div>
+
+    <script>
+        EJS_player      = "#game";
+        EJS_core        = "psx";
+        EJS_color       = "#000";
+        EJS_pathtodata  = "https://cdn.emulatorjs.org/stable/data/";
+        EJS_gameUrl     = "https://archive.org/download/images-20_202402/Tony%20Hawk%27s%20Pro%20Skater%202.7z/Tony%20Hawk%27s%20Pro%20Skater%202.bin";
+        EJS_bios        = "./scph5501.bin";
+    </script>
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+
+</body>
 </html>
