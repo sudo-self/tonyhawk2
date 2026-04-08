@@ -1,5 +1,6 @@
 
 # Tony Hawk 2
+[![Deploy static content to Pages](https://github.com/sudo-self/tonyhawk2/actions/workflows/static.yml/badge.svg)](https://github.com/sudo-self/tonyhawk2/actions/workflows/static.yml)
 
 - A high-performance Playstation Original 100% in browser.
  
